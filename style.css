@@ -30,10 +30,39 @@ body{
     color: orange;
 }
 
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 100px;
 }
+
+.box-design{
+    box-shadow: 10px 10px 40px gray;
+    width: 35%;
+    margin-left: 5%;
+    margin-right: 4%;
+    padding-left: 20px;
+    border-radius: 10px;
+
+}
+.section-three{
+    background-image: url(image/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#slice2{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+
+#slice1{
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(170, 31, 31),rgb(204, 69, 46));
+    border-image-slice: 1;
+}
+
+
 
 .first{
     width: 50%;
@@ -59,4 +88,8 @@ section{
     font-weight: 500;
    
     
+}
+
+footer p{
+    text-align: center;
 }
